@@ -106,7 +106,7 @@ def inline(update: Update, context: CallbackContext) -> None:
 def main() -> None:
     """Start the bot."""
     # Create the Updater
-    updater = Updater("5443200255:AAGo8n7_37py4t2VNCb6JMhsxYNyiqFuejc")
+    updater = Updater("TOKEN")
 
     dispatcher = updater.dispatcher
 
